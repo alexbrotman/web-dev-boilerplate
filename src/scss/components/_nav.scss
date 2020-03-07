@@ -1,0 +1,24 @@
+._nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  width: 100%;
+
+  ._nav__logo {
+    font-weight: bold;
+  }
+
+  ._nav__left {
+    display: flex;
+  }
+
+  ._nav__menu ul {
+    display: flex;
+    justify-content: flex-end;
+    li {
+      list-style-type: none;
+      padding: 20px;
+    }
+  }
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Cinch</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./dist/css/styles.css">
+  </head>
+  <body>
+    <!--[if IE]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <nav class="_nav">
+      <div class="_nav__left">
+        <span class="_nav__logo">Cinch</span>
+        <div class="_toggle" data-toggle-event="dark-mode">
+          <span class="_toggle__label">Dark Mode</span>
+          <span class="_toggle__off">Off</span>
+          <div class="_toggle__pill"></div>
+          <span class="_toggle__on">On</span>
+        </div>
+      </div>
+      <div class="_nav__right">
+        <span class="_nav__menu">
+          <ul>
+            <li><a href="#">Documentation</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </span>
+      </div>
+    </nav>
+
+    <h1>Cinch</h1>
+
+    <!-- CINCH SCROLL BAR -- START -->
+    <section class="_scroll-bar">
+      <div class="_scroll-bar__fill"></div>
+    </section>
+    <!-- CINCH SCROLL BAR -- END -->
+
+    <section class="_section">
+      <a href="#" class="_button _modal-trigger" data-modal-target="demo-modal">Open Demo Modal</a>
+    </section>
+
+    
+    <!-- CINCH MODAL -- START -->
+    <section class="_modal" data-modal-id="demo-modal">
+      <div class="_modal__background">
+      </div>
+      <!-- <div class="_modal__close-button"></div> -->
+      <div class="_modal__container">
+        <div class="_modal__controls">
+          <a href="#" class="_button _modal__close-button">&times;</a>
+        </div>
+        <div class="_modal__content">
+          Modal Content
+        </div>
+      </div>
+    </section>
+    <!-- CINCH MODAL -- END -->
+    <script src="./dist/js/scripts.js" async defer></script>
+  </body>
+</html>

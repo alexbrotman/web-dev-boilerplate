@@ -1,0 +1,14 @@
+._scroll-bar {
+  left: 0;
+  height: 6px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  ._scroll-bar__fill {
+    background: $black;
+    height: 100%;
+    transform: scaleX(var(--scroll));
+    transform-origin: 0 0;
+    width: 100%;
+  }
+}
